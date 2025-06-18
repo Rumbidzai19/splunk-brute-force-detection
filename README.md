@@ -1,3 +1,11 @@
+failed_logins_sample.csv
+queries.txt
+Screenshots/
+├── dashboard_overview.png
+├── failed_logins_table.png
+└── failed_logins_timechart.png
+
+
 Brute Force Login Detection using Splunk
 
 This mini project simulates brute-force attack detection using Windows Security Logs (EventCode 4625) in Splunk.
