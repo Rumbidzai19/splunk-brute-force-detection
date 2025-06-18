@@ -23,3 +23,23 @@ Dashboards Created
 index=windows EventCode=4625
 | stats count by user, host
 | where count > 2
+
+2. Failed Login Attempts Over Time
+index=windows EventCode=4625
+| timechart span=30m count by user
+
+✅ Outcome
+This demonstrates beginner-friendly SOC skills:
+
+Data ingestion
+
+Threat detection
+
+Dashboarding in Splunk
+
+📸 Screenshots
+See in the /Screenshots/ folder.
+
+👩‍💻 Author
+Rumbidzai Mutsengi | CompTIA Security+ Certified
+Frankfurt, Germany
