@@ -8,7 +8,9 @@ Screenshots/
 
 Brute Force Login Detection using Splunk
 
-This mini project simulates brute-force attack detection using Windows Security Logs (EventCode 4625) in Splunk.
+# Brute Force Detection in Splunk
+This project shows how to detect brute-force login attempts using Windows logs and Splunk queries.
+
 
  Objective
 Detect multiple failed login attempts by the same user or from the same host, indicating potential brute-force attacks.
